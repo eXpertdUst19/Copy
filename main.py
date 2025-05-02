@@ -43,7 +43,7 @@ async def medium_loop():
     await asyncio.sleep(10)
     while dmcs and target_channel:
         try:
-            commands_medium = ["+harvest", "+wolf", "+pickaxe", "+oilminer", "+iron", "+navy fish", "+bread", "+work"]
+            commands_medium = ["+harvest", "+wolf", "+pickaxe", "+oilminer", "+iron", "+navy fish", "+bread", "+work", "+industry"]
             random.shuffle(commands_medium)
             for cmd in commands_medium:
                 if not dmcs:
